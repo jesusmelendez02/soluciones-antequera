@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <header class="primary-header bg-primary-100">
-        <div class="container">
+    <header class="bg-primary-100">
+        <div class="primary-header">
             <div class="nav-wrapper">
-                <a href="#"><img class="logo" src="images/Logotipo SA.svg" alt="SA"></a>
+                <a href="#"><img class="logo-header" src="images/Logotipo SA.svg" alt="SA"></a>
                 <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
 
                     <span class="visually-hidden">Menu</span>
@@ -78,7 +78,7 @@
 
         <section class="vertical-padding bg-primary-100">
             <div class="container">
-                <h2 class="fs-primary-heading fw-bold section-content-responsive">Nuestros Servicios</h2>
+                <h2 class="fs-primary-heading fw-bold bottom-padding">Nuestros Servicios</h2>
                 <div class="even-columns">
                     <div class="services-card | shadow margin-top">
                         <div class="title-card bg-primary-300">
@@ -132,8 +132,9 @@
         </section>
 
         <section class="vertical-padding bg-primary-100">
-            <div class="section-content-responsive">
-                <h2 class="fs-primary-heading fw-bold">Por qué somos el aliado ideal <br>para potenciar el crecimiento
+            <div class="container">
+                <h2 class="fs-primary-heading fw-bold bottom-padding">Por qué somos el aliado ideal <br>para potenciar
+                    el crecimiento
                     de tu PYME.</h2>
             </div>
 
@@ -219,7 +220,7 @@
 
         <section class="vertical-padding container">
             <h2 class="fs-primary-heading lh-primary-heading fw-bold ">Obtén Nuestro Servicio en 3 Pasos Simples</h2>
-            <p class="fs-secondary-heading lh-secondary-heading margin-top section-content-responsive">Empecemos a
+            <p class="fs-secondary-heading lh-secondary-heading margin-top bottom-padding">Empecemos a
                 trabajar juntos en sólo 3 sencillos pasos</p>
             <div class="container margin-top">
                 <div class="even-columns justify-content-center">
@@ -228,7 +229,8 @@
                             <img src="images/undraw_personal_text_re_vqj3.svg" alt="">
                         </div>
                         <h3 class="card-heading">1. Conéctate con Nosotros.</h3>
-                        <p>Contáctanos por WhatsApp, llamada o mediante nuestro formulario. Cuéntanos tus necesidades y cómo podemos ayudarte.
+                        <p>Contáctanos por WhatsApp, llamada o mediante nuestro formulario. Cuéntanos tus necesidades y
+                            cómo podemos ayudarte.
                         </p>
                     </div>
                     <div class="card">
@@ -236,21 +238,23 @@
                             <img src="images/undraw_contract_re_ves9.svg" alt="">
                         </div>
                         <h3 class="card-heading">2. Revisa tu Cotización Personalizada.</h3>
-                        <p>Una vez entendamos tus requerimientos, te enviaremos una cotización adaptada a tus necesidades específicas.
+                        <p>Una vez entendamos tus requerimientos, te enviaremos una cotización adaptada a tus
+                            necesidades específicas.
                     </div>
                     <div class="card">
                         <div>
                             <img src="images/undraw_business_deal_re_up4u.svg" alt="">
                         </div>
                         <h3 class="card-heading">3. Confirma y Empezamos</h3>
-                        <p>¡Acepta la cotización y dejaremos la magia de los números en nuestras manos! Comenzaremos a trabajar inmediatamente para impulsar el éxito de tu PYME.</p>
+                        <p>¡Acepta la cotización y dejaremos la magia de los números en nuestras manos! Comenzaremos a
+                            trabajar inmediatamente para impulsar el éxito de tu PYME.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="cta | vertical-padding container">
-            <h2 class="fs-primary-heading fw-bold section-content-responsive">Ponte en contacto</h2>
+            <h2 class="fs-primary-heading fw-bold bottom-padding">Ponte en contacto</h2>
             <div class="container flow">
                 <div class="even-columns">
                     <div>
@@ -259,7 +263,10 @@
                             Llena el formulario de contacto o llámanos y empecemos a trabajar juntos en hacer crecer a
                             tu empresa.</p>
                         <div class="flex-container | margin-top justify-content-center">
-                            <a class="button" href="tel:+569497904429">+56 9 49790 4429</a>
+                            <div class="button">
+                                <img class="icon-25" src="images/icon-phone-white.svg" alt="">
+                                <a class="no-decoration" href="tel:+569497904429">+56 9 49790 4429</a>
+                            </div>
                             <img class="whatsapp" src="images/Whatsapp.svg" alt="whatsapp">
                         </div>
                     </div>
@@ -282,17 +289,29 @@
         </section>
     </main>
 
-    <footer class="bg-primary-100 vertical-padding ">
+    <footer class="bg-primary-100 vertical-padding">
         <div class="container">
             <div class="even-columns">
                 <div>
-                    <a href="#"><img class="logo" src="images/Imagotipo Soluciones Antequera .svg" alt="SA"></a>
-                    <p>email</p>
-                    <p>telefono</p>
+                    <a href="#"><img class="logo-footer" src="images/Imagotipo Soluciones Antequera .svg" alt="SA"></a>
                 </div>
                 <div>
-                    <nav class="primary-navigation">
-                        <ul role="list" class="nav-list">
+                    <div> 
+                        <a class=" inline-flex-container text-primary-400" href="">
+                            <img class="icon-25" src="images/icon-mail.svg" alt="">
+                            <p class="inline-padding">contacto@solucionesantequera.cl</p>
+                        </a>
+                    </div>
+                    <div class="margin-top"> 
+                        <a class="inline-flex-container text-primary-400" href="">
+                            <img class="icon-25" src="images/icon-phone-blue.svg" alt="">
+                            <p class="inline-padding">+56 9 49790 4429</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <nav>
+                        <ul role="list" class="nav-list-footer">
                             <li><a href="#">Inicio</a></li>
                             <li><a href="#">Servicios</a></li>
                             <li><a href="#">Cómo unirte</a></li>
